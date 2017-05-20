@@ -58,7 +58,7 @@ Make sure the app is installed working correctly.
 Make another one for "Lights off".
 
 ## Shout it out
-When everything is setup and in place. You can shout "LIGHTS ON" and "LIGHTS OFF" all night long.. all night.
+When everything is setup and in place. You can shout "OK GOOGLE LIGHTS ON" and "OK GOOGLE LIGHTS OFF" all night long.. all night.. long.
 
 
 
