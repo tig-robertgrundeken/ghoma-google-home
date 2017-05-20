@@ -38,8 +38,8 @@ Copy and Paste the message to the clipboard.
 You can use the sample PHP file. Keep in mind it is a sample and it is not secure! 
 Get your FUserAccount, FPassword and FActionNo from the message and use it in the PHP Script. 
 Save the script on a location which can be reached over the internet. Usage:
-ON = http://www.somewhere-online.com/plugController.php?plug=on
-OFF = http://www.somewhere-online.com/plugController.php?plug=off
+ON = http://www.somewhere-online-you-put-the-file.com/plugController.php?plug=on
+OFF = http://www.somewhere-online-you-put-the-file.com/plugController.php?plug=off
 
 Call it via your browser and you should be able to control the plug.
 
@@ -51,7 +51,7 @@ Make sure the app is installed working correctly.
 * For the THIS part Select the Google Assistent. 
 * Select "simple phrase". By "what do you want to say?" you can fill in "lights on".
 * For the THAT part select Maker Webhooks. Select make a webrequest.
-* For the URL you can write the whole url.
+* For the URL you can write the whole url ending on "plugController.php?plug=off".
 
 Make another one for "Lights off".
 
