@@ -32,10 +32,31 @@ Click on this, and on the right side on "contents" and on the lower bar on "Text
 
 `<?xml version="1.0" encoding="UTF-8"?><v:Envelope xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns:d="http://www.w3.org/2001/XMLSchema" xmlns:c="http://schemas.xmlsoap.org/soap/encoding/" xmlns:v="http://schemas.xmlsoap.org/soap/envelope/"><v:Header /><v:Body><service xmlns="http://www.thinkhome.com.cn/" id="o0" c:root="1"><json i:type="d:string">{"head":{"code":"120"},"body":{"authentication":{"FUserAccount":"xxxxxx@xxxxxxxx.com","FPassword":"xxxxxxxxxxxxxxxxxxxxxx"},"action":{"FActionType":"5","FActionNo":"xxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxx","FKeyNum":"0","FAction":"1","FValue":""}}}</json></service></v:Body></v:Envelope>`
 
-Copy and Paste the message for on and off to the clipboard.
+Copy and Paste the message to the clipboard.
 
-## PHP Script
+## PHP Script Example
+You can use the sample PHP file. Keep in mind it is a sample and it is not secure! 
+Get your FUserAccount, FPassword and FActionNo from the message and use it in the PHP Script. 
+Save the script on a location which can be reached over the internet. Usage:
+ON = http://www.somewhere-online.com/plugController.php?plug=on
+OFF = http://www.somewhere-online.com/plugController.php?plug=off
 
+Call it via your browser and you should be able to control the plug.
+
+!!! Keep in mind this is not a very secure method. Everybody who knows the urls can make the call over the internet and control the plugs. You probably can figure out some ways to make it more secure. 
+
+## Install and setup the IFTTT app
+Make sure the app is installed working correctly. 
+* Add a "New Applet". 
+* For the THIS part Select the Google Assistent. 
+* Select "simple phrase". By "what do you want to say?" you can fill in "lights on".
+* For the THAT part select Maker Webhooks. Select make a webrequest.
+* For the URL you can write the whole url.
+
+Make another one for "Lights off".
+
+## Shout it out
+When everything is setup and in place. You can shout "LIGHTS ON" and "LIGHTS OFF" all night long.. all night.
 
 
 
