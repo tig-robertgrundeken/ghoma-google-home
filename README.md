@@ -51,7 +51,7 @@ Make sure the app is installed working correctly.
 * For the THIS part Select the Google Assistent. 
 * Select "simple phrase". By "what do you want to say?" you can fill in "lights on".
 * For the THAT part select Maker Webhooks. Select make a webrequest.
-* For the URL you can write the whole url ending on "plugController.php?plug=off".
+* For the URL you can write the whole url ending on "plugController.php?plug=on".
 
 Make another one for "Lights off".
 
