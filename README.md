@@ -34,6 +34,8 @@ Click on this, and on the right side on "contents" and on the lower bar on "Text
 
 Copy and Paste the message to the clipboard.
 
+!!! Here you see that your username and encrypted password are send over http:// which is easily to intercepted. Best would be that G-Homa should send the request over https://. 
+
 ## PHP Script Example
 You can use the sample PHP file. Keep in mind it is a sample and it is not secure! 
 Get your FUserAccount, FPassword and FActionNo from the message and use it in the PHP Script. 
