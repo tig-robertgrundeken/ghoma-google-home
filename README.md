@@ -1,7 +1,7 @@
 # ghoma-google-home
 Low tech way to connect G-Homa wifi plugs to your Google Home.
 
-The quick explanation is that we going to find out which message the ghoma is app is sending to the server to turn the plug on and off. This message we are going to immitate with a script. In this case PHP, because i use that on daily basis, but when you see the structure it is easy to set it up in different languages. Then we use the IFTTT app to connect a voice-commend to a webhook (php script) to control the plug.
+The quick explanation is that we going to find out which message the ghoma is app is sending to the server to turn the plug on and off. This message we are going to immitate with a script. In this case PHP, because i use that on daily basis, but when you see the structure it is easy to set it up in different languages. Then we use the IFTTT app to connect a voice-command to a webhook (php script) to control the plug.
 
 When you want to make your own server, look at this github repo: https://github.com/rodney42/node-ghoma
 
